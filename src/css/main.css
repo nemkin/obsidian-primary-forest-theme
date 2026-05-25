@@ -1172,9 +1172,9 @@ body.is-mobile {
   --color-base-70: var(--color-l-gray-120);
   --color-base-100: var(--color-l-gray-140);
   /* Accent Colors */
-  --accent-h: 31;
-  --accent-s: 23%;
-  --accent-l: 50%;
+  --accent-h: 140;
+  --accent-s: 42%;
+  --accent-l: 37%;
   --color-accent-hsl: var(--accent-h),
                       var(--accent-s),
                       var(--accent-l);
@@ -1197,8 +1197,8 @@ body.is-mobile {
   /* Alternating Colors */
   --non-alternating-color: var(--color-l-gray-70);
   --non-alternating-color-hover-active: var(--color-l-gray-60);
-  --alternating-color-1: var(--color-l-yellow-30);
-  --alternating-color-1-hover-active: var(--color-l-yellow-40);
+  --alternating-color-1: var(--color-l-green-30);
+  --alternating-color-1-hover-active: var(--color-l-green-40);
   --alternating-color-2: var(--color-l-red-30);
   --alternating-color-2-hover-active: var(--color-l-red-40);
   --alternating-color-3: var(--color-l-blue-30);
@@ -2097,9 +2097,9 @@ body.is-mobile {
   --color-base-70: var(--color-d-gray-20);
   --color-base-100: var(--color-d-gray-10);
   /* Accent Colors */
-  --accent-h: 31;
-  --accent-s: 27%;
-  --accent-l: 24%;
+  --accent-h: 140;
+  --accent-s: 35%;
+  --accent-l: 22%;
   --color-accent-hsl: var(--accent-h),
                       var(--accent-s),
                       var(--accent-l);
@@ -2141,8 +2141,8 @@ body.is-mobile {
   /* Special Colors */
   --non-alternating-color: var(--color-d-gray-60);
   --non-alternating-color-hover-active: var(--color-d-gray-70);
-  --alternating-color-1: var(--color-d-yellow-30);
-  --alternating-color-1-hover-active: var(--color-d-yellow-40);
+  --alternating-color-1: var(--color-d-green-30);
+  --alternating-color-1-hover-active: var(--color-d-green-40);
   --alternating-color-2: var(--color-d-red-30);
   --alternating-color-2-hover-active: var(--color-d-red-40);
   --alternating-color-3: var(--color-d-blue-30);
@@ -7455,3 +7455,17 @@ body.no-decor-link {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/* Primary Forest: green modal close button */
+.modal-close-button {
+    background: var(--color-l-green-30) !important;
+}
+.modal-close-button:hover {
+    background: var(--color-l-green-20) !important;
+}
+.theme-dark .modal-close-button {
+    background: var(--color-d-green-30) !important;
+}
+.theme-dark .modal-close-button:hover {
+    background: var(--color-d-green-20) !important;
+}

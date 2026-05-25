@@ -604,9 +604,9 @@ body {
 
     /* Accent Colors */
     // Primary Classic Light: color-l-gray-90
-    --accent-h: 31;
-    --accent-s: 23%;
-    --accent-l: 50%;
+    --accent-h: 140;
+    --accent-s: 42%;
+    --accent-l: 37%;
 
     --color-accent-hsl: var(--accent-h),
                         var(--accent-s),
@@ -635,8 +635,8 @@ body {
     /* Alternating Colors */
     --non-alternating-color: var(--color-l-gray-70);
     --non-alternating-color-hover-active: var(--color-l-gray-60);
-    --alternating-color-1: var(--color-l-yellow-30);
-    --alternating-color-1-hover-active: var(--color-l-yellow-40);
+    --alternating-color-1: var(--color-l-green-30);
+    --alternating-color-1-hover-active: var(--color-l-green-40);
     --alternating-color-2: var(--color-l-red-30);
     --alternating-color-2-hover-active: var(--color-l-red-40);
     --alternating-color-3: var(--color-l-blue-30);
@@ -1730,9 +1730,9 @@ body {
     
     /* Accent Colors */
     // Primary Classic Dark: color-d-gray-70
-    --accent-h: 31;
-    --accent-s: 27%;
-    --accent-l: 24%;
+    --accent-h: 140;
+    --accent-s: 35%;
+    --accent-l: 22%;
 
     --color-accent-hsl: var(--accent-h),
                         var(--accent-s),
@@ -1789,8 +1789,8 @@ body {
     /* Special Colors */
     --non-alternating-color: var(--color-d-gray-60);
     --non-alternating-color-hover-active: var(--color-d-gray-70);
-    --alternating-color-1: var(--color-d-yellow-30);
-    --alternating-color-1-hover-active: var(--color-d-yellow-40);
+    --alternating-color-1: var(--color-d-green-30);
+    --alternating-color-1-hover-active: var(--color-d-green-40);
     --alternating-color-2: var(--color-d-red-30);
     --alternating-color-2-hover-active: var(--color-d-red-40);
     --alternating-color-3: var(--color-d-blue-30);
