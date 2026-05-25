@@ -1,9 +1,10 @@
 {
-  "name": "Primary",
+  "name": "Primary Forest",
   "version": "2.10.0",
   "minAppVersion": "1.4.0",
-  "author": "Cecilia May",
+  "author": "Viktoria Nemkin (fork of Primary by Cecilia May)",
   "fundingUrl": {
     "Ko-fi": "https://ko-fi.com/ceciliamay"
-  }
+  },
+  "authorUrl": "https://github.com/nemkin/obsidian-primary-forest-theme"
 }

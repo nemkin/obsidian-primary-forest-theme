@@ -234,8 +234,8 @@ settings:
         format: hsl
         opacity: true
         title: Ribbon Background Color
-        default-light: 'hsla(34, 34%, 90%, 1)'
-        default-dark: 'hsla(31, 17%, 12%, 1)'
+        default-light: 'hsla(120, 25%, 89%, 1)'
+        default-dark: 'hsla(120, 12%, 9%, 1)'
     -
         id: ribbon-border-width
         type: variable-text
@@ -248,8 +248,8 @@ settings:
         format: hsl
         opacity: true
         title: Ribbon Border Color
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(30, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: ribbon-radius
         type: variable-text
@@ -306,8 +306,8 @@ settings:
         opacity: true
         title: Editor Background Color
         description: Sets the size of the grid, dotted grid, or image
-        default-light: 'hsla(35, 36%, 96%, 1)'
-        default-dark: 'hsla(30, 19%, 14%, 1)'
+        default-light: 'hsla(120, 26%, 95%, 1)'
+        default-dark: 'hsla(120, 13%, 10%, 1)'
     -
         id: editor-bgpattern-size
         type: variable-text
@@ -321,8 +321,8 @@ settings:
         opacity: true
         title: Editor Background's Pattern Color
         description: Only available for line grid or dot grid background types. Sets the color of the line grid, dot grid. For line grid, it will take the color input and reduce it to 30% opacity.
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(31, 27%, 24%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 20%, 19%, 1)'
     -
         id: editor-border-width
         type: variable-text
@@ -334,8 +334,8 @@ settings:
         format: hsl
         opacity: true
         title: Editor Border Color
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
 		id: editor-file-header
 		type: class-select
@@ -362,8 +362,8 @@ settings:
         format: hsl
         opacity: true
         title: File Header Border Color
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: file-line-width
         type: variable-text
@@ -376,16 +376,16 @@ settings:
         format: hsl
         opacity: true
         title: Gutter Number Text Color
-        default-light: 'hsla(36, 37%, 75%, 1)'
-        default-dark: 'hsla(31, 27%, 27%, 1)'
+        default-light: 'hsla(120, 28%, 73%, 1)'
+        default-dark: 'hsla(120, 20%, 22%, 1)'
     -
         id: gutter-color-active
         type: variable-themed-color
         format: hsl
         opacity: true
         title: Active Line Gutter Number Text Color
-        default-light: 'hsla(31, 23%, 50%, 1)'
-        default-dark: 'hsla(34, 24%, 40%, 1)'
+        default-light: 'hsla(120, 18%, 46%, 1)'
+        default-dark: 'hsla(120, 18%, 37%, 1)'
     -
 		id: active-line-highlight
 		type: class-toggle
@@ -398,8 +398,8 @@ settings:
         opacity: true
         title: Active Line Background Color
         description: Only works when Active Line Highlighting is turned on.
-        default-light: 'hsla(36, 38%, 98%, 1)'
-        default-dark: 'hsla(33, 20%, 16%, 1)'
+        default-light: 'hsla(120, 28%, 97%, 1)'
+        default-dark: 'hsla(120, 14%, 12%, 1)'
 	-
 		id: interface_status-bar
 		type: heading
@@ -450,8 +450,8 @@ settings:
         title: Status Bar Background
         format: hsl
         opacity: true
-        default-light: 'hsla(34, 34%, 90%, 1)'
-        default-dark: 'hsla(31, 17%, 12%, 1)'
+        default-light: 'hsla(120, 25%, 89%, 1)'
+        default-dark: 'hsla(120, 12%, 9%, 1)'
     -
         id: status-bar-border-width
         type: variable-text
@@ -510,8 +510,8 @@ settings:
         title: Progress Background Color
         format: hsl
         opacity: true
-        default-light: 'hsla(34, 34%, 90%, 1)'
-        default-dark: 'hsla(31, 17%, 12%, 1)'
+        default-light: 'hsla(120, 25%, 89%, 1)'
+        default-dark: 'hsla(120, 12%, 9%, 1)'
     -
         id: progress-border-width
         type: variable-text
@@ -698,8 +698,8 @@ settings:
         title: Color
         format: hsl
         opacity: true
-        default-light: 'hsla(33, 54%, 17%, 1)'
-        default-dark: 'hsla(32, 48%, 85%, 1)'
+        default-light: 'hsla(120, 46%, 13%, 1)'
+        default-dark: 'hsla(120, 38%, 82%, 1)'
     -
         id: h1-bg-color
         type: variable-themed-color
@@ -731,32 +731,32 @@ settings:
         title: Top Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h1-border-right-color
         type: variable-themed-color
         title: Right Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h1-border-bottom-color
         type: variable-themed-color
         title: Bottom Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h1-border-left-color
         type: variable-themed-color
         title: Left Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h1-border-radius
         type: variable-text
@@ -831,8 +831,8 @@ settings:
         title: Color
         format: hsl
         opacity: true
-        default-light: 'hsla(33, 54%, 17%, 1)'
-        default-dark: 'hsla(32, 48%, 85%, 1)'
+        default-light: 'hsla(120, 46%, 13%, 1)'
+        default-dark: 'hsla(120, 38%, 82%, 1)'
     -
         id: h2-bg-color
         type: variable-themed-color
@@ -864,32 +864,32 @@ settings:
         title: Top Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h2-border-right-color
         type: variable-themed-color
         title: Right Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h2-border-bottom-color
         type: variable-themed-color
         title: Bottom Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h2-border-left-color
         type: variable-themed-color
         title: Left Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h2-border-radius
         type: variable-text
@@ -964,8 +964,8 @@ settings:
         title: Color
         format: hsl
         opacity: true
-        default-light: 'hsla(33, 54%, 17%, 1)'
-        default-dark: 'hsla(32, 48%, 85%, 1)'
+        default-light: 'hsla(120, 46%, 13%, 1)'
+        default-dark: 'hsla(120, 38%, 82%, 1)'
     -
         id: h3-bg-color
         type: variable-themed-color
@@ -997,32 +997,32 @@ settings:
         title: Top Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h3-border-right-color
         type: variable-themed-color
         title: Right Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h3-border-bottom-color
         type: variable-themed-color
         title: Bottom Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h3-border-left-color
         type: variable-themed-color
         title: Left Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h3-border-radius
         type: variable-text
@@ -1097,8 +1097,8 @@ settings:
         title: Color
         format: hsl
         opacity: true
-        default-light: 'hsla(33, 54%, 17%, 1)'
-        default-dark: 'hsla(32, 48%, 85%, 1)'
+        default-light: 'hsla(120, 46%, 13%, 1)'
+        default-dark: 'hsla(120, 38%, 82%, 1)'
     -
         id: h4-bg-color
         type: variable-themed-color
@@ -1130,32 +1130,32 @@ settings:
         title: Top Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h4-border-right-color
         type: variable-themed-color
         title: Right Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h4-border-bottom-color
         type: variable-themed-color
         title: Bottom Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h4-border-left-color
         type: variable-themed-color
         title: Left Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h4-border-radius
         type: variable-text
@@ -1230,8 +1230,8 @@ settings:
         title: Color
         format: hsl
         opacity: true
-        default-light: 'hsla(33, 54%, 17%, 1)'
-        default-dark: 'hsla(32, 48%, 85%, 1)'
+        default-light: 'hsla(120, 46%, 13%, 1)'
+        default-dark: 'hsla(120, 38%, 82%, 1)'
     -
         id: h5-bg-color
         type: variable-themed-color
@@ -1263,32 +1263,32 @@ settings:
         title: Top Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h5-border-right-color
         type: variable-themed-color
         title: Right Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h5-border-bottom-color
         type: variable-themed-color
         title: Bottom Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h5-border-left-color
         type: variable-themed-color
         title: Left Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h5-border-radius
         type: variable-text
@@ -1363,8 +1363,8 @@ settings:
         title: Color
         format: hsl
         opacity: true
-        default-light: 'hsla(33, 54%, 17%, 1)'
-        default-dark: 'hsla(32, 48%, 85%, 1)'
+        default-light: 'hsla(120, 46%, 13%, 1)'
+        default-dark: 'hsla(120, 38%, 82%, 1)'
     -
         id: h6-bg-color
         type: variable-themed-color
@@ -1396,32 +1396,32 @@ settings:
         title: Top Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h6-border-right-color
         type: variable-themed-color
         title: Right Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h6-border-bottom-color
         type: variable-themed-color
         title: Bottom Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h6-border-left-color
         type: variable-themed-color
         title: Left Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: h6-border-radius
         type: variable-text
@@ -1461,8 +1461,8 @@ settings:
         title: Strikethrough Text Color
         format: hsl
         opacity: true
-        default-light: 'hsla(34, 29%, 60%, 1)'
-        default-dark: 'hsla(34, 24%, 40%, 1)'
+        default-light: 'hsla(120, 22%, 57%, 1)'
+        default-dark: 'hsla(120, 18%, 37%, 1)'
     -
         id: underline-color
         type: variable-themed-color
@@ -1470,8 +1470,8 @@ settings:
         description: Not natively supported in markdown, but underline can be activated with HTML.
         format: hsl
         opacity: true
-        default-light: 'hsla(31, 45%, 24%, 1)'
-        default-dark: 'hsla(34, 39%, 74%, 1)'
+        default-light: 'hsla(120, 38%, 20%, 1)'
+        default-dark: 'hsla(120, 30%, 70%, 1)'
     -
         id: underline-decoration-opacity
         type: variable-text
@@ -1484,8 +1484,8 @@ settings:
         title: Bold + Italic Text Color
         format: hsl
         opacity: true
-        default-light: 'hsla(33, 54%, 17%, 1)'
-        default-dark: 'hsla(32, 48%, 85%, 1)'
+        default-light: 'hsla(120, 46%, 13%, 1)'
+        default-dark: 'hsla(120, 38%, 82%, 1)'
     -
         id: bold-italic-weight
         type: variable-number
@@ -1497,8 +1497,8 @@ settings:
         title: Bold + Italic + Strikethrough Text Color
         format: hsl
         opacity: true
-        default-light: 'hsla(31, 23%, 50%, 1)'
-        default-dark: 'hsla(35, 27%, 55%, 1)'
+        default-light: 'hsla(120, 18%, 46%, 1)'
+        default-dark: 'hsla(120, 20%, 50%, 1)'
 	-
 		id: nf_highlight
 		type: heading
@@ -1511,8 +1511,8 @@ settings:
         title: Highlight Text Color
         format: hsl
         opacity: true
-        default-light: 'hsla(31, 45%, 24%, 1)'
-        default-dark: 'hsla(34, 39%, 74%, 1)'
+        default-light: 'hsla(120, 38%, 20%, 1)'
+        default-dark: 'hsla(120, 30%, 70%, 1)'
     -
         id: normal-highlight-bg
         type: variable-themed-color
@@ -1527,8 +1527,8 @@ settings:
         title: Bold + Highlight Text Color
         format: hsl
         opacity: true
-        default-light: 'hsla(31, 45%, 24%, 1)'
-        default-dark: 'hsla(34, 39%, 74%, 1)'
+        default-light: 'hsla(120, 38%, 20%, 1)'
+        default-dark: 'hsla(120, 30%, 70%, 1)'
     -
         id: bold-highlight-bg
         type: variable-themed-color
@@ -1543,8 +1543,8 @@ settings:
         title: Italic + Highlight Text Color
         format: hsl
         opacity: true
-        default-light: 'hsla(31, 45%, 24%, 1)'
-        default-dark: 'hsla(34, 39%, 74%, 1)'
+        default-light: 'hsla(120, 38%, 20%, 1)'
+        default-dark: 'hsla(120, 30%, 70%, 1)'
     -
         id: italic-highlight-bg
         type: variable-themed-color
@@ -1559,8 +1559,8 @@ settings:
         title: Strikethrough + Highlight Text Color
         format: hsl
         opacity: true
-        default-light: 'hsla(34, 29%, 60%, 1)'
-        default-dark: 'hsla(34, 24%, 40%, 1)'
+        default-light: 'hsla(120, 22%, 57%, 1)'
+        default-dark: 'hsla(120, 18%, 37%, 1)'
     -
         id: strikethrough-highlight-bg
         type: variable-themed-color
@@ -1575,8 +1575,8 @@ settings:
         title: Bold + Italic + Highlight Text Color
         format: hsl
         opacity: true
-        default-light: 'hsla(31, 45%, 24%, 1)'
-        default-dark: 'hsla(34, 39%, 74%, 1)'
+        default-light: 'hsla(120, 38%, 20%, 1)'
+        default-dark: 'hsla(120, 30%, 70%, 1)'
     -
         id: bold-italic-highlight-bg
         type: variable-themed-color
@@ -1652,16 +1652,16 @@ settings:
         title: Unresolved Links Color
         format: hsl
         opacity: true
-        default-light: 'hsla(34, 29%, 60%, 1)'
-        default-dark: 'hsla(34, 24%, 40%, 1)'
+        default-light: 'hsla(120, 22%, 57%, 1)'
+        default-dark: 'hsla(120, 18%, 37%, 1)'
     -
         id: link-unresolved-color
         type: variable-themed-color
         title: Unresolved Links Color when Hovered
         format: hsl
         opacity: true
-        default-light: 'hsla(34, 37%, 70%, 1)'
-        default-dark: 'hsla(35, 27%, 55%, 1)'
+        default-light: 'hsla(120, 28%, 68%, 1)'
+        default-dark: 'hsla(120, 20%, 50%, 1)'
     -
         id: link-unresolved-opacity
         type: variable-number
@@ -1729,15 +1729,15 @@ settings:
         title: Blockquote Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: blockquote-background-color
         type: variable-themed-color
         title: Blockquote Background Color
         format: hsl
         opacity: true
-        default-light: 'hsla(36, 38%, 98%, 1)'
+        default-light: 'hsla(120, 28%, 97%, 1)'
         default-dark: 'hsla(29, 16%, 12%, 1)'
 	-
 		id: nf_list
@@ -1772,24 +1772,24 @@ settings:
         title: List Marker Color
         format: hsl
         opacity: true
-        default-light: 'hsla(34, 29%, 60%, 1)'
-        default-dark: 'hsla(34, 24%, 40%, 1)'
+        default-light: 'hsla(120, 22%, 57%, 1)'
+        default-dark: 'hsla(120, 18%, 37%, 1)'
     -
         id: list-marker-color-hover
         type: variable-themed-color
         title: List Marker Color when Hovered
         format: hsl
         opacity: true
-        default-light: 'hsla(35, 28%, 40%, 1)'
-        default-dark: 'hsla(34, 31%, 68%, 1)'
+        default-light: 'hsla(120, 22%, 37%, 1)'
+        default-dark: 'hsla(120, 24%, 62%, 1)'
     -
         id: list-marker-color
         type: variable-themed-color
         title: List Marker Color when Collapsed
         format: hsl
         opacity: true
-        default-light: 'hsla(31, 23%, 50%, 1)'
-        default-dark: 'hsla(35, 27%, 55%, 1)'
+        default-light: 'hsla(120, 18%, 46%, 1)'
+        default-dark: 'hsla(120, 20%, 50%, 1)'
 	-
 		id: nf-checkbox
 		type: heading
@@ -1802,7 +1802,7 @@ settings:
         title: Unchecked Background Color
         format: hsl
         opacity: true
-        default-light: 'hsla(36, 38%, 98%, 1)'
+        default-light: 'hsla(120, 28%, 97%, 1)'
         default-dark: 'hsla(30, 17%, 13%, 1)'
     -
         id: checkbox-color
@@ -1834,8 +1834,8 @@ settings:
         title: Checked Text Color
         format: hsl
         opacity: true
-        default-light: 'hsla(34, 29%, 60%, 1)'
-        default-dark: 'hsla(34, 24%, 40%, 1)'
+        default-light: 'hsla(120, 22%, 57%, 1)'
+        default-dark: 'hsla(120, 18%, 37%, 1)'
     -
         id: checklist-done-decoration
         type: variable-text
@@ -1884,8 +1884,8 @@ settings:
         title: Schedule or Date [<] Color
         format: hsl
         opacity: true
-        default-light: 'hsla(32, 10%, 68%, 1)'
-        default-dark: 'hsla(32, 10%, 58%, 1)'
+        default-light: 'hsla(120, 8%, 66%, 1)'
+        default-dark: 'hsla(120, 8%, 56%, 1)'
     -
         id: important-chbx-color
         type: variable-themed-color
@@ -1914,16 +1914,16 @@ settings:
         title: Cancelled [-] Color
         format: hsl
         opacity: true
-        default-light: 'hsla(32, 10%, 68%, 1)'
-        default-dark: 'hsla(32, 10%, 58%, 1)'
+        default-light: 'hsla(120, 8%, 66%, 1)'
+        default-dark: 'hsla(120, 8%, 56%, 1)'
     -
         id: cancelled-chbx-text-color
         type: variable-themed-color
         title: Cancelled [-] Text Color
         format: hsl
         opacity: true
-        default-light: 'hsla(34, 29%, 60%, 1)'
-        default-dark: 'hsla(34, 24%, 40%, 1)'
+        default-light: 'hsla(120, 22%, 57%, 1)'
+        default-dark: 'hsla(120, 18%, 37%, 1)'
     -
         id: cancelled-chbx-text-decoration
         type: variable-text
@@ -2086,8 +2086,8 @@ settings:
         title: Rule or Law [r] Color
         format: hsl
         opacity: true
-        default-light: 'hsla(34, 34%, 52%, 1)'
-        default-dark: 'hsla(34, 34%, 52%, 1)'
+        default-light: 'hsla(120, 28%, 48%, 1)'
+        default-dark: 'hsla(120, 28%, 48%, 1)'
     -
         id: language-chbx-color
         type: variable-themed-color
@@ -2189,8 +2189,8 @@ settings:
         title: Note Embed Title Color
         format: hsl
         opacity: true
-        default-light: 'hsla(31, 23%, 50%, 1)'
-        default-dark: 'hsla(34, 24%, 40%, 1)'
+        default-light: 'hsla(120, 18%, 46%, 1)'
+        default-dark: 'hsla(120, 18%, 37%, 1)'
     -
         id: embed-title-border-width
         type: variable-text
@@ -2209,8 +2209,8 @@ settings:
         title: Note Embed Title Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(34, 24%, 40%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 18%, 37%, 1)'
     -
         id: embed-title-margin-bottom
         type: variable-text
@@ -2252,8 +2252,8 @@ settings:
         title: Note Embed Top Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(34, 24%, 40%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 18%, 37%, 1)'
 	-
 		id: nf_note-embed-border
 		type: heading
@@ -2278,8 +2278,8 @@ settings:
         title: Note Embed Right Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(34, 24%, 40%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 18%, 37%, 1)'
 	-
 		id: nf_note-embed-border
 		type: heading
@@ -2304,8 +2304,8 @@ settings:
         title: Note Embed Bottom Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(34, 24%, 40%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 18%, 37%, 1)'
 	-
 		id: nf_note-embed-border
 		type: heading
@@ -2330,8 +2330,8 @@ settings:
         title: Note Embed Left Border Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(34, 24%, 40%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 18%, 37%, 1)'
 	-
 		id: canvas
 		type: heading
@@ -2344,16 +2344,16 @@ settings:
         title: Canvas Dot Pattern Color
         format: hsl
         opacity: true
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(31, 27%, 24%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 20%, 19%, 1)'
     -
         id: canvas-card-label-color
         type: variable-themed-color
         title: Canvas Card Label Color
         format: hsl
         opacity: true
-        default-light: 'hsla(34, 29%, 60%, 1)'
-        default-dark: 'hsla(34, 24%, 40%, 1)'
+        default-light: 'hsla(120, 22%, 57%, 1)'
+        default-dark: 'hsla(120, 18%, 37%, 1)'
     -
         id: canvas-color
         type: variable-themed-color
@@ -3628,23 +3628,23 @@ settings:
         format: hsl
         opacity: true
         title: Active File Node Color
-        default-light: 'hsla(31, 45%, 24%, 1)'
-        default-dark: 'hsla(34, 39%, 74%, 1)'
+        default-light: 'hsla(120, 38%, 20%, 1)'
+        default-dark: 'hsla(120, 30%, 70%, 1)'
     -
         id: graph-node-highlight-fill
         type: variable-themed-color
         format: hsl
         opacity: true
         title: Hovered Node Color
-        default-light: 'hsla(31, 23%, 50%, 1)'
-        default-dark: 'hsla(34, 31%, 68%, 1)'
+        default-light: 'hsla(120, 18%, 46%, 1)'
+        default-dark: 'hsla(120, 24%, 62%, 1)'
     -
         id: graph-node-highlight-line
         type: variable-themed-color
         format: hsl
         opacity: true
         title: Hovered Node Line Color
-        default-light: 'hsla(34, 37%, 70%, 1)'
+        default-light: 'hsla(120, 28%, 68%, 1)'
         default-dark: 'hsla(33, 27%, 30%, 1)'
     -
         id: graph-text
@@ -3652,24 +3652,24 @@ settings:
         format: hsl
         opacity: true
         title: Text Color
-        default-light: 'hsla(34, 29%, 60%, 1)'
-        default-dark: 'hsla(28, 22%, 18%, 1)'
+        default-light: 'hsla(120, 22%, 57%, 1)'
+        default-dark: 'hsla(120, 16%, 14%, 1)'
     -
         id: graph-line
         type: variable-themed-color
         format: hsl
         opacity: true
         title: Line Color
-        default-light: 'hsla(37, 38%, 83%, 1)'
-        default-dark: 'hsla(37, 38%, 83%, 1)'
+        default-light: 'hsla(120, 28%, 82%, 1)'
+        default-dark: 'hsla(120, 28%, 82%, 1)'
     -
         id: graph-arrow
         type: variable-themed-color
         format: hsl
         opacity: true
         title: Arrow Color
-        default-light: 'hsla(31, 23%, 50%, 1)'
-        default-dark: 'hsla(34, 24%, 40%, 1)'
+        default-light: 'hsla(120, 18%, 46%, 1)'
+        default-dark: 'hsla(120, 18%, 37%, 1)'
 	-
 		id: advanced
 		type: heading
